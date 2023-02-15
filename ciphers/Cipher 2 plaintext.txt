@@ -6,3 +6,37 @@ A EG NESS BEM E ONVERSA DOS PODERA O CEDER PARA ISTO
 FALTA TEM PA E NINGUEM AQUI CONSEGUE A DIAMENTA CECSR 
 OS OBTER GOVERNADORA DIAR ELEICAO PELVM EM OS GUINZE 
 DIAS SAUDS ROSSO O O O SO SO
+
+Jarls' notes:
+
+The first thing one can do when a transposition cipher is suspected is to carry 
+out a simple periodical n-gram repeat analysis:
+
+1) Put the cipher in 2 columns (period 2) and read the text vertically while 
+counting the number of bigram or trigram repeats. Compare the number of repeats 
+to shuffles and calculate the odds.
+
+2) Repeat step 1 for 3 columns, 4 columns, 5 columns (period 3, 4, 5) etc up to 
+some meaningful limit (cipher length / 2 for example).
+
+3) If one find odds that are greater than what are expected to find after such 
+an analysis then the cipher may be transposed in exactly this way. In case of 
+the Portuguese cipher the odds at 15 columns were (very roughly) a 9 sigma 
+observation for trigram repeats.
+
+4) Reading the cipher by columns vertically in a 15 by 22 configuration thus 
+revealed the following text:
+
+ENCONTRO DE SEJVS SINE EROS CHEFES REPUBLICA NAS A
+CATAR VOSSA SPINIAO ELEICAO SCHMIDT ELLE TER A VOTACAO
+HONROS A MAS HA DIFFIOULDADES SERIAS IMPOSSIBILITAM
+ELEICAO DUVIDS CHEFES MUNICIPIOS QE E VOTARAM E ONVENCA
+A EG NESS BEM E ONVERSA DOS PODERA O CEDER PARA ISTO
+FALTA TEM PA E NINGUEM AQUI CONSEGUE A DIAMENTA CECSR
+OS OBTER GOVERNADORA DIAR ELEICAO PELVM EM OS GUINZE
+DIAS SAUDS ROSSO O O O SO SO
+
+5) Transcription and spacing errors may still persist and due to my poor 
+knowledge of the language I cannot proceed further with the decryption. 
+Diacritics were not preserved. The last +-15 letters may be filler to complete 
+the rectangle.
