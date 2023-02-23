@@ -40,3 +40,272 @@ DIAS SAUDS ROSSO O O O SO SO
 knowledge of the language I cannot proceed further with the decryption. 
 Diacritics were not preserved. The last +-15 letters may be filler to complete 
 the rectangle.
+
+-----
+
+cipher, no whitespace:
+
+    estshdmnedoirre
+    ncacoeeinofcoed
+    chrhnslcçsaosli
+    oevmrseiáplnoea
+    nfoioeipaotsbis
+    tesdsrciedaetçs
+    rsstaiáogetgeáa
+    oraemaosnreurou
+    deslasdqeámegpd
+    epplsieusopaoes
+    suiehmvescodvlr
+    ebntapivbeeievo
+    jliedodoednarms
+    viarisstmeimnes
+    scoafscaerneamo
+    saevfihropgndoo
+    inloibeanautoso
+    naetoifmvreargo
+    esiauleeeamcaus
+    eacçlisoriaedio
+    rcáádtmnssqçins
+    oaooaauvatusazo
+
+transposed by columns:
+
+    encontrodesejvssineero
+    schefesrepublicanasaca
+    tarvossaspiniaoeleicáo
+    schmidtelleteravotaçáo
+    honrosamashadiffioulda
+    desseriasimpossibilita
+    meleicáodevidschefesmu
+    nicipiosquevotarameonv
+    ençáaegnessbemeonversa
+    dospoderáocederparaist
+    ofaltatempoeninguemaqu
+    iconsegueadiamentaceçs
+    rosobtergovernadoradia
+    releiçáopelvmemosguinz
+    ediassaudsrossoooososo
+
+with jarl's word divisions:
+
+    encontro de sejvs sine eros
+    chefes republica nas a 
+    catar vossa spiniao eleicáo
+    schmidt elle ter a votaçáo
+    honros a mas ha diffiouldades
+    serias impossibilitam
+    eleicáo devids chefes 
+    municipios que votaram e
+    onvençá a eg ness bem e onversa
+    dos poderá o ceder para isto
+    falta tem po e ninguem 
+    aqui con segue a diamenta ceçsr
+    os obter governadora diar eleiçáo
+    pelvm em os guinze dias sauds rosso 
+    ooososo
+
+with column delimiters:
+
+    encontro de sejvs sine ero|s
+    chefes republica nas a 
+    ca|tar vossa spiniao eleicáo|
+    schmidt elle ter a votaçáo|
+    honros a mas ha diffioulda|des
+    serias impossibilita|m
+    eleicáo devids chefes 
+    mu|nicipios que votaram e
+    onv|ençá a eg ness bem e onversa|
+    dos poderá o ceder para ist|o
+    falta tem po e ninguem 
+    aqu|i con segue a diamenta ceçs|r
+    os obter governadora dia|r eleiçáo
+    pelvm em os guinz|e dias sauds rosso 
+    ooososo
+
+lined up by columns:
+
+    encontro de sejvs sine ero|
+    s chefes republica nas a ca|
+    tar vossa spiniao eleicáo|
+    schmidt elle ter a votaçáo|
+    honros a mas ha diffioulda|
+    des serias impossibilita|
+    m eleicáo devids chefes mu|
+    nicipios que votaram eonv|
+    ençá a eg ness bem e onversa|
+    dos poderá o ceder para ist|
+    o falta tem po e ninguem aqu|
+    i con segue a diamenta ceçs|
+    r os obter governadora dia|
+    r eleiçáo pelvm em os guinz|
+    e dias sauds rosso ooososo
+
+words that seem to confirm column order:
+
+    diffioulda|des
+    mu|nicipios
+
+words with notes (and column delimiters):
+
+    encontro            MEETING
+    de
+    sejvs               DESEJOS = WISHES
+    sin[ce]
+    ero|s               might be SINCERO = HONEST / SINCERE
+    chefes              BOSSES
+    republica           REPUBLIC
+    n[ao]s              IN THE
+    a                   
+    ca|tar              ACATAR = COMPLY
+    vossa               YOURS
+    [os]piniao          BUT OPINIÃO = OPINION
+    eleicáo|            ELECTION
+    schmidt             A PERSON NAMED SCHMIDT?
+    elle                HE
+    ter
+    a                   TER A = WILL HAVE
+    votaçáo|            VOTING
+    honros
+    a                   HONROSA = HONORABLE
+    mas                 BUT
+    ha                  THERE ARE
+    diffi[ao]ulda|des   DIFICULDADES = DIFFICULTIES
+    serias              SERIOUS
+    impossibilita|m     MAKE IT IMPOSSIBLE
+    elei[ce]áo          ELECTION
+    devid[os]           A PERSON NAME DEVIDS?
+    chefes              BOSSES
+    mu|nicipios         COUNTIES (MUNICIPALITIES?)
+    que                 WHO
+    votaram             VOTED
+    e                   AND
+    onv|ençá            CONVENÇA = CONVINCE
+    a
+    eg
+    ness
+    bem
+    e
+    onversa|            REVERSE (BUT CONVERSA = CONVERSATION)
+    dos
+    poderá              CAN / MAY
+    o
+    ceder               GIVE IN / CEDE
+    para                FOR / TO
+    ist|o               THIS
+    falta               LACK / ABSENCE
+    tem                 HE
+    po                  TEMPO = TIME, PO = DUST / POWDER
+    e                   AND
+    ninguem             NOBODY
+    aqu|i               HERE
+    con
+    segue
+    a
+    diamenta            DIAMOND / BRILLIANT    ninguém aqui consegue a diamante = NO ONE HERE GETS THE DIAMOND
+    ceçs|r
+    os
+    obter               TO OBTAIN / GET
+    governadora         GOVERNOR
+    dia|r               HATE but ADAIR = POSTPONE 
+    eleiçáo             ELECTION
+    pelvm
+    em
+    os
+    guinz|e             QUINZE = FIFTEEN
+    dias                DAYS
+    sauds               SAUDS = GREETINGS, SAÚDE = HEALTH
+    rosso               ROSY
+    ooososo
+
+Plaintext by columns, with corrections:
+
+    encontro desejos sincero|
+    s chefes republica nas aca|
+    tar vossa opinião eleicáo|
+    schmidt elle ter a votaçáo|
+    honros a mas ha dificulda|
+    des serias impossibilita|
+    m eleicáo devido chefes mu|
+    nicipios que votaram conv|
+    ençá a eg ness bem conversa|
+    dos poderá o ceder para ist|
+    o falta tem po e ninguem aqu|
+    i consegue a diamenta ceçs|
+    r os obter governador adia|
+    r eleiçáo pelvm em os quinz|
+    e dias sauds rosso ooososo
+
+cleaned up first part:
+
+    Portuguese:
+    encontro desejos sinceros chefes republicanas acatar vossa opiniao eleicáo schmidt elletera 
+    votaçáo honrosa mas ha dificuldades serias impossibilitam eleicáo devido chefes municipios
+    
+    English:
+    I find sincere wishes republican chiefs accept your opinion election schmidt elletera honorable
+    vote but there are serious difficulties make election impossible due to municipal chiefs who voted convince
+
+Diego's cleanups:
+
+    Encontro¹ desejos sinceros
+    chefes republicanas acatar
+    vossa opinião eleição
+    schmidt² ele ter a votação
+    honrosa mas há dificuldade
+    sérias impossibilitam
+    eleição devido chefes municípios
+    que votaram convenção
+    e nesse³ bem conversados
+    poderão ceder para isto
+    falta tempo e ninguém aqui
+    consegue adiamento ceçsros4
+    obter governador adiar
+    eleição pelo menos quinze
+    dias saudações5 o ooososo6
+
+    1. This word is a conjugation of the verb "to find". At the beginning of the 
+    message, a sentence like "I wish you are well" could be used, in the sense that 
+    the interlocutor is well at that moment. But it doesn't seem to dialogue with 
+    the subsequent words.
+
+    2. This is the name of an important military and politician in that context and 
+    it is spelled correctly.
+
+    3. This word is a demonstrative pronoun and is used when the object or person 
+    it refers to is far from the person speaking and spatially close to the person 
+    being spoken to. In the context of the message, it does not dialogue with the 
+    other words.
+
+    4. Here you didn't form a word in Portuguese, but there are some words in 
+    Portuguese that have 7 letters and "ç" in the third position. Examples: façanha 
+    (feat), maçante (dull), façamos (let's do), alçapão (trapdoor), caçador 
+    (Hunter).
+
+    5. From the beginning of the word it is clear that this is a parting greeting 
+    (greetings - saudações). This is how the author ends other telegrams sent to 
+    the same sender in that period.
+
+    6. This is another word that doesn't make sense in the Portuguese language. 
+    Usually the messages ended in "greetings", but in this case it has one more 
+    word with 8 letters. It seems to me that it could be the name of the author of 
+    the message "Hercilio", it would make sense if it were. (Greetings, Hercilio). 
+    What do you think?
+
+    I'll put you a translation below so you can see what the message is about:
+
+        I find sincere wishes
+        republican heads comply
+        your opinion election
+        schmidt he have the vote
+        honorable but there is difficulty
+        serious make it impossible
+        election due chiefs municipalities
+        who voted convention
+        and in this well spoken
+        may give in to this
+        no time and no one here
+        get postponement ceçsros get governor postpone
+        election at least fifteen
+        days greetings the ooososo
+
+    It is possible to understand the content well, but there are some open questions.

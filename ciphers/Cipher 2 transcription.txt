@@ -1,19 +1,104 @@
+Top of the memo says "Endereço" (Address):  Marechal Floriano.
+Marechal Floriano is the capital of the municipality of the same name, in the state of Espírito Santo, Brazil.
+
+Transcription:
+
 (Jarl's note:  Upon going through the transcription I noticed several groups did not have 5 characters. Here's my fix, with letters I'm not sure of in CAPS.)
 
-estsh dmned oirre ncaco
-eeino fcoed chrhn slcçs
-aosli oevmr seiap lnoea
-nfoio eipao tsbis tesds rcied
-aetçs rssta iaoge tgeaa
-oraem aosnr eurou desla
-sdqea megpd eppls iueso
-paoes suieh mvesc advLR ebNta
-pivbe eievo jLied odoed narms
-viari Sstme imnes scoaf scaer
-neamo saevf ihrop gndoo inLoi
-beana utoso naeto ifmvr
-Eargo esiau leeea mcaus eacçl
-isori aedio rcaad tmnss qçins
-oaooa auvat usazo
+    estsh dmned oirre ncaco
+    eeino fcoed chrhn slcçs
+    aosli oevmr seiáp lnoea
+    nfoio eipao tsbis tesds rcied
+    aetçs rssta iáoge tgeáa
+    oraem aosnr eurou desla
+    sdqeá megpd eppls ieuso
+    paoes suieh mvesc odvLR ebNta
+    pivbe eievo jLied odoed narms
+    viari Sstme imnes scoaf scaer
+    neamo saevf ihrop gndoo inLoi
+    beana utoso naeto ifmvr
+    Earqo esiau leeea mcaus eacçl
+    isori aedio rcáád tmnss qçins
+    oaooa auvat usazo
+
+(With ambiguous interpretations within brackets, and regrouped to fit 15 columns):
+
+    estsh       dmned    oirre 
+    ncaco       eeino    fcoed 
+    chrhn       slcç[ds] aosli 
+    oevmr       seiáp    lnoea
+    nfoio       eip[ao]o tsbis 
+    tesds       r[ce]ied aetçs 
+    rssta       iáoge    tgeáa
+    oraem       aosnr    eurou 
+    de[os]la    sd[gq]eá megpd 
+    eppls       ieuso    paoe[os] 
+    suieh       mvesc    odvlr 
+    ebnta       pivbe    eie[ov]o 
+    jlied       odoed    narms
+    viari       s[os]tme imnes 
+    scoaf       sca[ce]r neamo 
+    saevf       ihrop    gndo[os] 
+    inloi       beana    utoso 
+    n[ao]et[ao] ifmvr    [ce][aos]rq[os] 
+    [ce]siau    leeea    mcau[os] 
+    eacçl       isori    aedio 
+    rcáád       tmnss    [gq]çins
+    oaooa       auvat    usazo
+
+Lined up in grid:
+
+    e    s    t    s h    d m    n    e    d    o    i     r r    e 
+    n    c    a    c o    e e    i    n    o    f    c     o e    d 
+    c    h    r    h n    s l    c    ç    [ds] a    o     s l    i 
+    o    e    v    m r    s e    i    á    p    l    n     o e    a
+    n    f    o    i o    e i    p    [ao] o    t    s     b i    s 
+    t    e    s    d s    r [ce] i    e    d    a    e     t ç    s 
+    r    s    s    t a    i á    o    g    e    t    g     e á    a
+    o    r    a    e m    a o    s    n    r    e    u     r o    u 
+    d    e    [os] l a    s d    [gq] e    á    m    e     g p    d 
+    e    p    p    l s    i e    u    s    o    p    a     o e    [os] 
+    s    u    i    e h    m v    e    s    c    o    d     v l    r 
+    e    b    n    t a    p i    v    b    e    e    i     e [ov] o 
+    j    l    i    e d    o d    o    e    d    n    a     r m    s
+    v    i    a    r i    s [os] t    m    e    i    m     n e    s 
+    s    c    o    a f    s c    a    [ce] r    n    e     a m    o 
+    s    a    e    v f    i h    r    o    p    g    n     d o    [os] 
+    i    n    l    o i    b e    a    n    a    u    t     o s    o 
+    n    [ao] e    t [ao] i f    m    v    r    [ce] [aos] r q    [os] 
+    [ce] s    i    a u    l e    e    e    a    m    c     a u    [os] 
+    e    a    c    ç l    i s    o    r    i    a    e     d i    o 
+    r    c    á    á d    t m    n    s    s    [gq] ç     i n    s
+    o    a    o    o a    a u    v    a    t    u    s     a z    o
+
 
 Cipher alphabet (len 23):  abcdefghijlmnopqrstuvzç  (missing k, w, x and y) 
+
+Bottom of the memo says "Nome de remettente" (Sender name?): Hercílio Luz
+Is this the same person?  https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz
+
+Refined transcription after analysis:
+(Fixed: quinze, opiniao, dificuldades, convença)
+
+    estshdmnedoirre
+    ncacoeeinofcoed
+    chrhnslcçsaosli
+    oevmrseiáplnoea
+    nfoioeipaotsbis
+    tesdsrciedaetçs
+    rsstaiáogetgeáa
+    oraemaosnreurou
+    deolasdqeámegpd
+    epplsieusopaoes
+    suiehmvescodvlr
+    ebntapivbeeievo
+    jliedodoednarms
+    oiarisstmeimnes
+    scoafscaerneamo
+    saevfihropgndoo
+    inloibeanautoso
+    naetcifmvrearqo
+    esiauleceamcaus
+    eacçlisoriaedio
+    rcáádtmnssqçins
+    oaooaauvatusazo
