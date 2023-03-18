@@ -1,0 +1,128 @@
+(cipher)
+(azdecrypt's plaintext)
+(diego's plaintext)
+
+sreq vqaum ieuhuqg 
+AHUI DIZEM QUEREIS
+Aqui dizem quereis 
+
+vuqcsh jkvuh slfug ieqlau 
+DEIXAR PODER ANTES QUINZE
+deixar poder antes quinze 
+
+lkdumyhk xklruxk dkggk 
+NOVEMBRO CONHECO VOSSO
+novembro conheço vosso  
+
+jzfhqkfqgmk jkh qggk lsk xhuqk 
+PATRIOTISMO POR ISSO NAO CREIO
+patriotismo por isso não creio 
+
+gumunrslfu yksfk vqdum fsmyum 
+SEMELHANTE BOATO DIVEM TAMBEM
+semelhante boato dizem também 
+
+u qggk u msqg shzdu ieu kttqxqzug
+E ISSO E MAIS ARAVE QUE OFFICIAES 
+e isso é mais grave que officiaes 
+                        
+vuggz sezhlqxzk ieuhum tzauh
+DESSA AUARNICAO QUEREM FAZER
+dessa guarnição querem fazer 
+
+sxxnsmsxsk xkldum xuhfqtqxsh 
+ACCLAMACAO CONVEM CERTIFICAR
+acclamação convém certificar 
+
+gu u qmjuvqh iesnieh  mzlqtugfsxsk 
+SE E IMPEDIR QUALQUR  MANIFESTACAO
+se é impedir qualquer manifestação 
+
+fsk slfq jsfhqkfqxk qlfulfk unnug 
+TAO ANTI PATRIOTICO INTENTO ELLES
+tao anti patriótico intento elles 
+
+lsk gsk smqskg ps mzlxrshsk 
+NAO SAO AMIAOS JA MANCHARAO
+não são amigos já mancharão 
+
+vukvkhk lsk ucqfshsk tsauh dkg 
+DEODORO NAO EXITARAO FAZER VOS 
+Deodoro não exitaram fazer nos 
+
+k mugmk gk ieuhum dqduh skazh 
+O MESMO SO QUEREM VIVER AOZAR 
+o mesmo só querem viver gozar 
+
+jsfhqs lsvs dsnu
+PATRIA NADA VALE
+pátria nada vale
+
+
+With punctuation: 
+
+    Aqui dizem quereis 
+    deixar poder antes quinze 
+    novembro. Conheço vosso  
+    patriotismo, por isso não creio 
+    semelhante boato. Dizem também 
+    e isso é mais grave que officiaes 
+    dessa guarnição querem fazer 
+    acclamação.  Convém certificar 
+    se é impedir qualquer manifestação 
+    tao anti patriótico intento.  Elles 
+    não são amigos.  Já mancharão 
+    Deodoro.  Não exitaram fazer nos 
+    o mesmo.  Só querem viver gozar; 
+    pátria nada vale.
+
+Putting it on one line:
+
+    Aqui dizem quereis deixar poder antes quinze novembro. Conheço vosso patriotismo, por isso não creio semelhante boato. Dizem também e isso é mais grave que officiaes dessa guarnição querem fazer acclamação. Convém certificar se é impedir qualquer manifestação tao anti patriótico intento. Elles não são amigos. Já mancharão Deodoro. Não exitaram fazer nos o mesmo. Só querem viver gozar; pátria nada vale.
+
+Which gives a better translation:
+
+    Here they say you want to leave power before the fifteenth of November. I know your patriotism, 
+    so I don't believe such a rumor. They also say, and this is more serious, that the officers of 
+    that garrison want to make an acclamation. It is important to make sure that any manifestation 
+    of such an anti-patriotic intent is prevented. They are not friends. They will already stain 
+    Deodoro. They didn't hesitate to do the same for us. They just want to live and enjoy;
+    homeland is worth nothing.
+
+key:
+
+   5 aZ
+   0 b
+   2 cX
+   9 dV
+   7 eU
+  16 fT
+  19 gS
+  23 hR
+   4 iQ
+   6 jP
+  36 kO
+  16 lN
+  18 mM
+   6 nL
+   0 o
+   1 pJ
+  25 qI
+   6 rH
+  38 sA
+   3 tF
+  38 uE
+   8 vD
+   0 w
+  12 xC
+   3 yB
+   4 zA
+
+Similar to atbash cipher.  Deviations:
+  - Cipher w not used, where plain D would have appeared.
+  - Cipher s stands for plain A but expected G
+  - Cipher o not used.  Plain K is missing and thus expected here.
+  - No plain W used in key.
+  - Cipher b not used.  Plain Y is missing and thus expected here.
+
+Conclusion: It is atbash but with no cipher or plain W, and A is assigned to both cipher z and cipher s.

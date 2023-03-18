@@ -1,5 +1,21 @@
-sreq vqaum ieuhuqg vuqcsh jkvuh slfug ieqlau lkdumyhk xklruxk dkggk jfshqkfqgmk jkh qggk lsk xhuqk gumunrslfu yksfk vqdum fsmyum u qggk u msqg shzdu reuhum lsauh sxxnsmsxsk xkldum xuhfqtqxsh gu u qmjuvqh resnieh mzlqtugfsx fsk slfq jsfhqkfqxk qlfulfk unnug lsk gsk smqskg ps mzlxrshsk vukvkhk lsk ucqfshsk tsauh dkg k mugmk gk ieuhum dqduh skazh jsfhqs lsvs dsnu
+sreq vqaum ieuhuqg 
+vuqcsh jkvuh slfug ieqlau 
+lkdumyhk xklruxk dkggk 
+jfshqkfqgmk jkh qggk lsk xhuqk 
+gumunrslfu yksfk vqdum fsmyum 
+u qggk u msqg shzdu reuhum lsauh 
+sxxnsmsxsk xkldum xuhfqtqxsh 
+gu u qmjuvqh resnieh mzlqtugfsx 
+fsk slfq jsfhqkfqxk qlfulfk unnug 
+lsk gsk smqskg ps mzlxrshsk 
+vukvkhk lsk ucqfshsk tsauh dkg 
+k mugmk gk ieuhum dqduh skazh 
+jsfhqs lsvs dsnu
+
+The following phrase is written in Portuguese at the top of the enciphered text:  "Key is with captain Joaquim Ignácio"
+Salutation after ciphertext is in plaintext:  - Saudo vos
+
+Bottom of memo says:  Nome de remettente (sender name)... Coronel (Colonel) Cesar
 
 Cipher alphabet, len 23: acdefghijklmnpqrstuvxyz  (missing b, o, and w)
 
-The following phrase is written in Portuguese at the top of the enciphered text:  "Key is with captain Joaquim Ignácio"
