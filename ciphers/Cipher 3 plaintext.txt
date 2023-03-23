@@ -1,0 +1,60 @@
+(Work in progress - will update when done refining solution)
+
+   Cipher: Hrqcpk fvokcsg ikmgs. Xvqkc rkssvfcv gfcav gjcsgjvs uvskf fgcv ugoccvqg, ugsksqk fk vfv fgeav jk accscv egosv bksicecv qcpksgf focqg jclcivcjgjk skkckcigv ribfcjq sksoeicg sgoecsv jkpejv qojv g ke ek mgs. Hskpk bksicecv rkarcsg ics ivzlksksicgs ivsvcav.
+AZDecrypt: BSTIVE MOUEIRA CELAR. POTEI SERROMIO AMIGO ADIRADOR POREM MAIO PAUIIOTA, PARERTE ME OMO MANGO DE GIIRIO NAURO HERCINIO TIVERAM MUITA DIFICOIDADE REEIEICAO SCHMIDT RERUNCIA RAUNIRO DEVNDO TUDO A EN NE LAR. BREVE HERCINIO SEGSIRA CIR CONFERERCIAR COROIGO.
+  Refined: Estive Moreira César. Notei SERROMIO AMIGO ADIRADOR porém mais patrióta,  parece-me OMO maino DE GIIRIO Lauro Hercílio tiveram muita dificuldade reeleição Schmidt reucia   RAUNIRO devido tudo A EN NE LAR. breve Hercílio sensira cir comerciar    cooino
+
+Refined key:
+
+
+
+===
+
+Score: 17641.74 IOC: 0.0812 Multiplicity: 0.0890 Seconds: 0.22
+Repeats:  HERCINIO  IRA C R CO ERCI R PO O DE TIVE DO  O A
+PC-cycles: 233 Homophones: 2
+
+BSTIVE MOUEIRA CELAR POTEI SERROMIO AMIGO ADIRADOR POREM MAIO PAUIIOTA PARERTE ME OMO MANGO DE 
+GIIRIO NAURO HERCINIO TIVERAM MUITA DIFICOIDADE REEIEICAO SCHMIDT RERUNCIA RAUNIRO DEVNDO TUDO 
+A EN NE LAR BREVE HERCINIO SEGSIRA CIR CONFERERCIAR COROIGO
+
+Estive Moreira César Notei SERROMIO AMIGO ADIRADOR porém mais patrióta parece-me OMO maino DE 
+GIIRIO Lauro Hercílio tiveram muita dificuldade reeleição Schmidt reucia   RAUNIRO devido tudo 
+A EN NE LAR breve Hercílio sensira cir comerciar cooino
+
+
+Apparently this message continues to deal with the election of Felipe Schmidt. Very interesting!
+
+The message is in Portuguese.
+
+Below I will put what it looks like in my view compared to what is deciphered:
+
+Estive Moreira César(1). Notei(2) SERROMIO AMINO ADIRADOR porém mais patrióta(3), parece-me (4) 
+OMO maino DE NIIRIO Lauro Hercílio tiveram muita dificuldade reeleição Schmidt(5) reucia RAUIIO 
+devido tudo(6) A EI IE LAR breve Hercílio(7) sensira cir comerciar(8) cooino.
+
+
+What is uppercased is not possible to understand.
+
+
+1. Here the author states that he was with Moreira César.
+
+2. Conjugation of the verb to notice in the first person singular, for example, I noticed that you went to the park today.
+
+3. In that passage, he states that the following "but more patriotic", thus what is written before is some adjective. Do you remember that the first word of the sentence was the verb to notice? He noticed something (which is not clear yet) and was more patriotic.
+
+4. Conjugation of the verb to appear. He uses the expression it seems to me that... He is giving an opinion.
+
+
+5. This passage is very interesting. First, he points out that Lauro and Hercílio had difficulties with Schmidt's re-election. The mentioned Lauro is Lauro Müller. He was elected deputy candidate in the same election of 1894. He was Schmidt's cousin and they were part of the same political group.
+
+6. Here is an excerpt from a passage that is quite confusing, as it says "Due to everything...", it is difficult to identify as it is not clear what is written next.
+
+7. At this point there is the expression "soon Hercílio" which seems to be something like: soon Hercílio will do such a thing...
+
+8. That last word is the verb to trade without being conjugated.
+
+
+The author of the telegram is a General who identifies himself as Valle. I have no knowledge about this historical figure, I will need to research more about him and see if I can find any information, but first he is speaking to President Floriano who visited Moreira César and who noticed that there were difficulties for Schmidt's election. It is very interesting to know that Lauro Müller was also involved in this process, as he was also a candidate.
+Detail, that only the four most voted candidates for deputy would be elected and Schmidt was in fifth place.
+I'm sending you two images, one is the Republican party candidate list and the other is the poll results.

@@ -1,0 +1,155 @@
+<style>
+    #output {
+    }
+
+    .cipher {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24pt;
+        font-weight: bold;
+        color: black;
+    }
+
+    .plain {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24pt;
+        font-weight: bold;
+        color: green;
+    }
+
+    .interpret {
+        color: blue;
+    }
+
+    .translated {
+        color: orange;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .prefix {
+        color: #999;
+    }
+
+    .row {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24pt;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .key {
+        padding-top: 1em;
+    }
+
+    #img-1 {
+        width: 277px;
+    }
+    #img-2 {
+        width: 540px;
+    }
+    #img-3 {
+        width: 550px;
+    }
+    #img-4 {
+        width: 470px;
+    }
+    #img-5 {
+        width: 470px;
+    }
+    #img-6 {
+        width: 490px;
+    }
+    #img-7 {
+        width: 510px;
+    }
+    #img-8 {
+        width: 470px;
+    }
+    #img-9 {
+        width: 580px;
+    }
+    #img-10 {
+        width: 470px;
+    }
+
+</style>
+
+<div id="output"></div>
+<br><br><br><h1>Images:</h1>
+<img src="Cipher 3 - TEL - 13-09-1894 part.1.png"><br/>
+<img src="Cipher 3 - TEL - 13-09-1894 part.2.png"><br/>
+<script>
+    cipher = [
+        "Hrqcpk fvokcsg",
+        "ikmgs. Xvqkc rksvkr gfcav",
+        "gjfcsgjvs uvskf fgcr ugoccvqg,",
+        "ugskzqk fkvfv fgeav gfav",
+        "jk acciscv egosv bksicecv",
+        "qcpksgf focqg jclcivejgjk",
+        "skkekcigv ribfcjq skzozicg",
+        "sgoeczv jkpcjv qojv g ke",
+        "ek mgs. Hskpk bksicecv rkarcsg",
+        "icv ivzlkskzicgs ivzvcav."        
+    ];
+    interpreted = [
+        "Estive Moreira",
+        "César. Notei serões amigo",
+        "admirador porém mais patrióta,",
+        "parente MEOMO MALGO algo",
+        "DE GLICRIO Lauro Hercílio",
+        "tiveram muita dificuldade",
+        "reeleição Schmidt renúncia",
+        "RAULINO devido tudo A EL",
+        "LE SAR. Breve Hercílio sensira",
+        "cio conferenciar conmigo."
+    ];
+    translated = [
+        "I have been with Moreira",
+        "César. Notei serões amigo",
+        "admirador porém mais patrióta,",
+        "parente MEOMO MALGO algo",
+        "DE GLICRIO Lauro Hercílio",
+        "tiveram muita dificuldade",
+        "reeleição Schmidt renúncia",
+        "RAULINO devido tudo A EL",
+        "LE SAR. Breve Hercílio sensira",
+        "cio conferenciar conmigo."
+    ]
+    alphaCipher = "abcdefghijklmnopqrstuvwxyz";
+    alphaPlain  = "ghi_lmaecdefs_rvtsr_po_n_n";
+    // o => {r, u, t}
+    // v => {o, u}
+    key = [];
+    for (var i=0; i<alphaCipher.length; i++) 
+    key[alphaCipher[i]] = alphaPlain[i];
+    console.log(cipher);
+    console.log(key);
+    render();
+
+    function decode(c) {
+        var str = "";
+        for (var i=0; i<c.length; i++) {
+            str += key[c[i].toLowerCase()] || c[i];
+        }
+        return str;
+    }
+
+    function render() {
+        html = "";
+        var line = 1;
+        for (var row of cipher) {
+            html += "<div class=\"row\">";
+            html += "<span class=\"prefix\">......Image:&nbsp;&nbsp;</span><img id=\"img-" + line + "\" src=\"Cipher 3 - line " + line + ".png\"><br>";
+            html += "<span class=\"prefix\">.....Cipher:&nbsp;&nbsp;</span><span class=\"cipher\">" + row + "</span><br>";
+            html += "<span class=\"prefix\">......Plain:&nbsp;&nbsp;</span><span class=\"plain\">" + decode(row) + "</span><br>";
+            html += "<span class=\"prefix\">Interpreted:&nbsp;&nbsp;</span><span class=\"interpret\">" + interpreted[line-1] + "</span>";
+            html += "</div>";
+            line++;
+        }
+        html += "<div class=\"key\"><h1>Key:</h1>";
+        html += "<span class=\"cipher\">" + alphaCipher + "</span><br>";
+        html += "<span class=\"plain\">" + alphaPlain + "</span>";
+        html += "</div>";
+
+        document.getElementById("output").innerHTML = html;
+    }
+</script>
