@@ -1,7 +1,29 @@
 Top of the memo says "Endereço" (Address):  Marechal Floriano.
-Marechal Floriano is the capital of the municipality of the same name, in the state of Espírito Santo, Brazil.
+Presumed to be President Floriano Peixoto.
 
 Transcription:
+
+estsh dmned oirre ncaco
+eeino fcoed chrhn slcçs 
+aosli oevmr seiáp lnoea 
+nfoio eipoo tsbis tesds rcied 
+aetçs rssta iáoge tgeáa 
+oraem aosnr eurou deola 
+sdqeá megpd eppls ieuso 
+paoea suieh mvesc odvlc ebnta 
+pivbe eieoo jlied odoed narms 
+oiári sotme imneo scoaf scacr 
+neano saevf ihrop gndoo inloi 
+beana utoso naetc ifmvr 
+eorqo csiau lecea mcauo eacçl 
+isori aedio rcáád tmnss qçi
+no oaooa auvat uoazo
+
+Bottom of the memo says "Nome de remettente" (Sender's name): Hercílio Luz
+
+====
+
+Older transcriptions and notes:
 
 (Jarl's note:  Upon going through the transcription I noticed several groups did not have 5 characters. Here's my fix, with letters I'm not sure of in CAPS.)
 
@@ -71,11 +93,10 @@ Lined up in grid:
     r    c    á    á d    t m    n    s    s    [gq] ç     i n    s
     o    a    o    o a    a u    v    a    t    u    s     a z    o
 
-
 Cipher alphabet (len 23):  abcdefghijlmnopqrstuvzç  (missing k, w, x and y) 
 
 Bottom of the memo says "Nome de remettente" (Sender name?): Hercílio Luz
-Is this the same person?  https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz
+https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz
 
 Refined transcription after analysis:
 (Fixed: quinze, opiniao, dificuldades, convença)

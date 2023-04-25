@@ -1,0 +1,222 @@
+<style>
+
+    .container {
+        display: flex;
+    }
+
+    .table {
+        width: 50%;
+    }
+
+    .grid {
+        margin-top: 1em;
+        letter-spacing: 2px;
+    }
+
+    .decoded {
+        width: 50%;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 16pt;
+        font-weight: bold;
+        color: green;
+    }
+
+    .main td {
+        vertical-align: top;
+    }
+
+    /* #output {
+    } */
+
+    .cipher {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 16pt;
+        font-weight: bold;
+        color: black;
+    }
+
+    td.cipher {
+        text-align: center;
+    }
+
+    .plain {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24pt;
+        font-weight: bold;
+        color: green;
+    }
+
+    .interpret {
+        color: blue;
+    }
+
+    .translated {
+        color: orange;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .prefix {
+        color: #999;
+    }
+
+    .row {
+        font-family:'Courier New', Courier, monospace;
+        font-size: 24pt;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+    }
+
+    .key {
+        padding-top: 1em;
+    }
+
+    .img-block {
+        width: 200px;
+        margin: 4px;
+    }
+
+</style>
+
+<div id="output"></div>
+<br><br><br><h1>Images:</h1>
+<img src="Cipher 2 image.png"><br/>
+<script>
+    cipher = [
+        ["estsh", "dmned", "oirre"], 
+        ["ncaco", "eeino", "fcoed"], 
+        ["chrhn", "slcçs", "aosli"], 
+        ["oevmr", "seiáp", "lnoea"], 
+        ["nfoio", "eipoo", "tsbis"], 
+        ["tesds", "rcied", "aetçs"], 
+        ["rssta", "iáoge", "tgeáa"], 
+        ["oraem", "aosnr", "eurou"], 
+        ["deola", "sdqeá", "megpd"], 
+        ["eppls", "ieuso", "paoea"], 
+        ["suieh", "mvesc", "odvlc"], 
+        ["ebnta", "pivbe", "eieoo"], 
+        ["jlied", "odoed", "narms"], 
+        ["oiári", "sotme", "imneo"],  // sotme or satme
+        ["scoaf", "scacr", "neano"], 
+        ["saevf", "ihrop", "gndoo"], 
+        ["inloi", "beana", "utoso"], 
+        ["naetc", "ifmvr", "eorqo"], 
+        ["csiau", "lecea", "mcauo"], 
+        ["eacçl", "isori", "aedio"], 
+        ["rcáád", "tmnss", "qçino"], 
+        ["oaooa", "auvat", "uoazo"], 
+    ];
+    // lengths of words interpreted from plaintext
+    words = [8, 7, 8, 6, 12, 6, 5, 7, 7, 7, 4, 4, 7, 7, 3, 2, 13, 6, 14, 7, 6, 6, 10, 3, 7, 9, 1, 5, 
+    3, 11, 7, 5, 4, 4, 5, 5, 1, 7, 4, 8, 9, 7, 5, 10, 5, 7, 4, 5, 6, 4, 8, 9];
+
+    // Encontro¹ desejos sinceros
+    // chefes republicanas acatar
+    // vossa opinião eleição
+    // schmidt² ele ter a votação
+    // honrosa mas há dificuldade
+    // sérias impossibilitam
+    // eleição devido chefes municípios
+    // que votaram convenção
+    // e nesse³ bem conversados
+    // poderão ceder para isto
+    // falta tempo e ninguém aqui
+    // consegue adiamento ceçsros4
+    // obter governador adiar
+    // eleição pelo menos quinze
+    // dias saudações5 o ooososo6
+
+// e[gq]n[eci]s[so]
+// CEC[SOA]
+
+    // “Encontro desejos sinceros; chefes republicanas acatarão vossa opinião. Eleição Schmidt elle terá 
+    // votação honrosa, mas há dificuldades sérias que impossibilitam eleição devido chefes municípios 
+    // que votaram convenção e quess. Bem conversados poderão ceder para isto; falta tempo e ninguém 
+    // aqui consegue adiamento cessaros obter governador adiar eleição pelo menos quinze dias. Saudações.”
+
+    // “Meeting sincere desires; Republican leaders will follow your opinion. Schmidt’s election will 
+    // have an honorable vote, but there are serious difficulties that prevent the election due to municipal 
+    // leaders who voted for convention and quess. Well-spoken people may give in to this; there’s not enough 
+    // time and nobody here can get a postponement to get the governor to postpone the election for at least
+    // fifteen days. Greetings.”
+
+    // words we're sure about
+    sure = [1, 1, 1, 1, 1, 1 /*acatar*/, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+        1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1];
+    render();
+    function highlight(row, block, col, doHighlight) {
+        var elem = document.getElementById("c_" + row + "_" + block + "_" + col);
+        elem.style.backgroundColor = doHighlight ? "orange" : "white";
+        var num = row * 3 + block + 1;
+        document.getElementById("block_img").innerHTML = "<img src=\"Cipher 2 - block " + num + ".png\"/>";
+    }
+    function decode() {
+        var pt = "";
+        var wordIndex = 0;
+        var currentLength = 0;
+        var wordLength = words[wordIndex];
+        for (var block=0; block<3; block++) {
+            for (var col=0; col<5; col++) {
+                for (var row=0; row<cipher.length; row++) {
+                    var upper = !sure[wordIndex];
+                    pt += "<span onmouseover=\"highlight(" + row + ", " + block + ", " + col + ", true)\" onmouseout=\"highlight(" + row + ", " + block + ", " + col + ", false)\">";
+                    pt += upper ? cipher[row][block][col].toUpperCase() : cipher[row][block][col];
+                    pt += "</span>";
+                    currentLength++;
+                    if (currentLength == wordLength) {
+                        pt += " ";
+                        currentLength = 0;
+                        wordIndex++;
+                        wordLength = words[wordIndex];
+                    }
+                }
+            }
+        }
+        return pt;
+    }
+
+    function grid() {
+        var ct = "";
+
+        for (var row in cipher) {
+            for (var block in cipher[row]) {
+                for (var col in cipher[row][block]) {
+                    var id = "c_" + row + "_" + block + "_" + col;
+                    ct += "<span id=\"" + id + "\">" + cipher[row][block][col] + "</span>";
+                }
+                ct += " ";
+            }
+            ct += "<br>";
+        }
+        return ct;
+    }
+
+    function render() {
+        html = "<div class=\"container\"><table class=\"main\">";
+        var img = 1;
+        for (var row of cipher) {
+            html += "<tr>";
+            // html += "<td class=\"prefix\">......Image:&nbsp;&nbsp;</td>";
+            htmlImg = "";
+            htmlCipher = "";
+            // html += "<span class=\"prefix\">.....Cipher:&nbsp;&nbsp;</span><span class=\"cipher\">" + row + "</span><br>";
+            // html += "<span class=\"prefix\">......Plain:&nbsp;&nbsp;</span><span class=\"plain\">" + decode(row) + "</span><br>";
+            // html += "<span class=\"prefix\">Interpreted:&nbsp;&nbsp;</span><span class=\"interpret\">" + interpreted[line-1] + "</span>";
+            for (var col of row) {
+                htmlImg += "<td><img class=\"img-block\" id=\"img-" + img + "\" src=\"Cipher 2 - block " + img + ".png\"></td>";
+                htmlCipher += "<td class=\"cipher\">" + col + "</td>";
+                img++;
+            }
+            html += htmlImg + "</tr><tr>" + htmlCipher;
+            html += "</tr>";
+        }
+        html += "</table>";
+
+        html += "<span class=\"decoded\">";
+        html += decode();
+        html += "<div class=\"grid\">" + grid() + "<span id=\"block_img\"></span></div>";
+        html += "</span>";
+        html += "</div>";
+
+        document.getElementById("output").innerHTML = html;
+    }
+</script>

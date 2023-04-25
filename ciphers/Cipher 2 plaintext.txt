@@ -1,3 +1,32 @@
+Latest plaintext:
+
+    encontro desejos sinceros chefes republicanas acatar vossa opiniáo eleicáo 
+    schmidt elle tera votaçáo honrosa mas ha difficuldades serias impossibilitam 
+    eleicáo devido chefes municipios que votaram convençáo e que so bem conversados 
+    poderáo ceder para isto falta tempo e ninguem aqui consegue adiamento ce çoros 
+    obter governador adiar eleiçáo pelo menos quinze dias saudacos ooooooooo
+
+Fixed with punctuation:
+
+    Encontro desejos sinceros. Chefes republicanos acatarão vossa opinião? Eleição 
+    Schmidt ele terá votação honrosa, mas há dificuldades sérias que impossibilitam 
+    eleição devido chefes municípios que votaram convenção e que só bem conversados 
+    poderão ceder. Para isto falta tempo e ninguém aqui consegue adiamento. Ceçoros 
+    obter governador adiar eleição pelo menos quinze dias. Saudações!
+
+Possible translation:
+
+    I meet sincere desires. Will Republican leaders accept your opinion? Schmidt’s 
+    election will have an honorable vote, but there are serious difficulties that 
+    make the election impossible due to municipal leaders who voted for the convention 
+    and who can only give in if they are well talked to. There is not enough time for 
+    this and no one here can postpone it. Ceçoros obtain governor to postpone the 
+    election for at least fifteen days. Greetings!
+
+====
+
+Older versions and notes:
+
 ENCONTRO DE SEJVS SINE EROS CHEFES REPUBLICA NAS A 
 CATAR VOSSA SPINIAO ELEICAO SCHMIDT ELLE TER A VOTACAO 
 HONROS A MAS HA DIFFIOULDADES SERIAS IMPOSSIBILITAM 
@@ -309,3 +338,6 @@ Diego's cleanups:
         days greetings the ooososo
 
     It is possible to understand the content well, but there are some open questions.
+
+    ----
+
